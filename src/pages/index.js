@@ -2,19 +2,18 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Learn to design and code</h1>
-    <p>Welcome to the Matrix sucker2 githuub22</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="Hero">
+      <div className="HeroGroup">
+        <SEO title="Home" />
+        <h1>Learn to design and code React apps</h1>
+        <p>Complete courses about the best tools and guides to learn React and React native</p>
+        <Link to="/page-2/">go to other page</Link> <br />
+      </div>
     </div>
-    <Link to="/page-2/">go to other page</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
