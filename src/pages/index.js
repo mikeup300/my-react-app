@@ -9,9 +9,26 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <SEO title="Home" />
-        <h1>Learn to design and code React apps</h1>
-        <p>Complete courses about the best tools and guides to learn React and React native</p>
-        <Link to="/page-2/">go to other page</Link> <br />
+        <h1>¡Arrienda tu lote para construir glampings!</h1>
+        <p>
+          Unete a la revloución del turismo ecologico y se host global de los
+          amantes de la naturaleza
+        </p>
+        <Link to="/page-2/">quiero registrarme</Link> <br />
+      </div>
+    </div>
+    <div className="Section">
+
+    </div>
+    <div className="Hero2">
+      <div className="HeroGroup">
+        <SEO title="Home" />
+        <h1>¡Arrienda tu lote para construir glampings!</h1>
+        <p>
+          Unete a la revloución del turismo ecologico y se host global de los
+          amantes de la naturaleza
+        </p>
+        <Link to="/page-2/">quiero registrarme</Link> <br />
       </div>
     </div>
   </Layout>
